@@ -1,0 +1,36 @@
+.news-content{
+    width: 100%;
+   
+}
+
+
+.newslist{
+   padding: 0 40px 70px 40px;
+   display: grid;
+   gap: 10px;
+   
+
+}
+.results-total{
+    margin: 0 0 0 40px;
+}
+
+@media screen and (max-width: 450px){
+    .newslist{
+        padding: 0 5px 70px 5px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .newslist{
+        padding: 0 5px 70px 5px;
+    }
+    .results-total{
+       font-size: 15px;
+       margin: 0px 5px 0px 5px;
+       width: 100%;
+    }
+}

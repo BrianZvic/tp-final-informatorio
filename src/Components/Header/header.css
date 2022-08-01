@@ -1,0 +1,23 @@
+
+
+.Header{
+    height: 50px;
+    width: 100%;
+    background-color: #5c5cd6;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Header img{
+    width: auto;
+    height: 60px;
+    margin: 0 0px 0 10px;
+}
+
+.Header h2{
+    color: #ffff;
+    font-family: 'Titan One', cursive;
+    letter-spacing: 3px;
+    
+}

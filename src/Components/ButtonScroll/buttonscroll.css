@@ -1,0 +1,40 @@
+.footer-up{
+    right: 40px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: grey;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.footer-up:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.8s;
+}
+
+
+@media screen and (max-width: 450px){
+    .footer-up{
+        width: 35px;
+        height: 35px;
+        right: 15px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .footer-up{
+        width: 35px;
+        height: 35px;
+        right: 15px;
+        bottom: 50px;
+    }
+}

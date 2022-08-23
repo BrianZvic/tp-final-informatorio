@@ -33,6 +33,12 @@ function NewsList(){
                         } 
                     
                     })
+
+
+
+
+
+                    
                 .catch(response=>{
                             
                             swal({
